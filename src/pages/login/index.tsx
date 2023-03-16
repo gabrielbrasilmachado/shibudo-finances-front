@@ -88,7 +88,7 @@ export const LoginPage = () => {
         size='small'
         error={Boolean(errors.email)}
         helperText={errors.email ? errors.email.message : ' '}
-      ></TextField>
+      />
       <TextField
         id='password'
         label='Digite sua senha *'
